@@ -18,7 +18,7 @@ SECRET_KEY = 'django-insecure-jch$gdh2o$96^l+-ke0xx%p@3@n6p6z2p%cfc^q+a6y9sh8ack
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+CSRF_TRUSTED_ORIGINS = ['https://hospital-backend-django.onrender.com','https://*.127.0.0.1']
 
 # Application definition
 
